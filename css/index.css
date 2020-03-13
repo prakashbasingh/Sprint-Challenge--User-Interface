@@ -70,6 +70,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+body
 /* CSS for navigation bar */
 .navigation{
     margin: 10px auto; 
@@ -167,4 +168,40 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* CSS for about.html page */
+
+.about{
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: dotted;
+}
+
+.strategy{
+    width: 40%
+    border-bottom: dotted;
+    margin: 20px auto;
+}
+.howwework{
+    width: 40%
+    border-bottom: dotted;
+    margin: 20px auto;
+}
+.placeswework{
+    width: 40%
+    border-bottom: dotted;
+    margin: 10px auto;
+}
+
+.collaboration{
+    width: 40%
+    border-bottom: dotted;
+    margin: 10px auto;
+}
+.firstrow{
+    display: flex;
+}
+.secondrow{
+    display: flex;
 }
