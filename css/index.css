@@ -77,7 +77,7 @@ body
     width: 100%;
 }
 .navigation a{
-    margin:0 5%;
+    margin:0 4.5%;
     text-decoration: none;
     width: 100%;
     text-align: right;
@@ -122,18 +122,46 @@ body
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
+   
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .one{
-    background-color: teal;
+   background: teal; 
+}
+.two{
+    background: gold;
+}
+.three{
+    background: cadetblue;
+}
+.four{
+    background: coral;
+}
+.five{
+    background: crimson;
+}
+.six{
+    background: forestgreen;
+}
+.seven{
+    background: darkorchid;
+}
+.eight{
+    background: hotpink;
+}
+.nine{
+    background: indigo;
+}
+.ten{
+    background: dodgerblue;
 }
 
 /* CSS for bottom body content */
@@ -176,32 +204,49 @@ footer nav a {
     width: 100%;
     margin-bottom: 20px;
     border-bottom: dotted;
+
 }
 
 .strategy{
-    width: 40%
     border-bottom: dotted;
-    margin: 20px auto;
+    margin: 10px 10px;
 }
 .howwework{
-    width: 40%
     border-bottom: dotted;
-    margin: 20px auto;
+    margin: 10px 10px;
 }
 .placeswework{
-    width: 40%
     border-bottom: dotted;
-    margin: 10px auto;
+    margin: 10px 10px;
 }
 
 .collaboration{
-    width: 40%
     border-bottom: dotted;
-    margin: 10px auto;
+    margin: 10px 10px;
 }
 .firstrow{
     display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
 }
-.secondrow{
+/* .secondrow{
     display: flex;
+} */
+
+.lastparagraph{
+    margin:20px 20px;
+}
+
+.bottomnav a{
+    margin: 0 5px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+p{
+    margin-bottom: 20px;
 }
