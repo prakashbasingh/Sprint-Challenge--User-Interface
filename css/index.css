@@ -75,6 +75,7 @@ body
 .navigation{
     margin: 10px auto; 
     width: 100%;
+    color: gray:
 }
 .navigation a{
     margin:0 4.5%;
@@ -202,39 +203,44 @@ footer nav a {
 
 .about{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: dotted;
 
 }
 
 .strategy{
     border-bottom: dotted;
-    margin: 10px 10px;
+    margin:  5px 5px;
 }
 .howwework{
     border-bottom: dotted;
-    margin: 10px 10px;
+    margin: 5px 5px;
 }
 .placeswework{
     border-bottom: dotted;
-    margin: 10px 10px;
+    margin:  5px 5px;
 }
 
 .collaboration{
     border-bottom: dotted;
-    margin: 10px 10px;
+    margin:  5px 5px;
 }
 .firstrow{
     display: flex;
     justify-content: space-between;
     /* justify-content: center; */
 }
-/* .secondrow{
+.secondrow{
     display: flex;
-} */
+    justify-content: space-between;
+    border: 1px solid red;
+}
 
-.lastparagraph{
-    margin:20px 20px;
+.lastparagraph{ 
+    width: 100%;
+    margin: 5px 5px;
+    border: 1px solid rgb(17, 16, 16);
+    /* display: flex; */
 }
 
 .bottomnav a{
@@ -244,9 +250,16 @@ footer nav a {
 button{
     width: 150px;
     height: 40px;
-    margin: 20px auto;
+    margin: 10px auto;
     border-radius: 10px;
 }
+h3{
+    margin: 10px auto;
+    font-weight: bold;
+}
+h2{
+    font-weight: bold; 
+}
 p{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
