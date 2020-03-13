@@ -70,7 +70,25 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/* CSS for navigation bar */
+.navigation{
+    margin: 10px auto; 
+    width: 100%;
+}
+.navigation a{
+    margin:0 5%;
+    text-decoration: none;
+    width: 100%;
+    text-align: right;
+}
+.logo{
+    margin-right: 20px;
+}
+/* CSS for header image */
+#firstimage{
+    margin: 20px auto;
+}
+/* CSS for top body content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +102,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* CSS for middle content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -111,6 +131,11 @@ p {
     align-items: center;
     justify-content: center;
 }
+.one{
+    background-color: teal;
+}
+
+/* CSS for bottom body content */
 
 .bottom-content {
     display: flex;
@@ -139,7 +164,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
